@@ -36,7 +36,6 @@ const PokeInfo = ({ data }) => {
 					</div>
 				)
 			}
-			{/* :{poke.base_stat} */}
 		</>
 	)
 }
