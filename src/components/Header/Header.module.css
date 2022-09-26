@@ -1,0 +1,14 @@
+.header{
+	height: 60px;
+	background-color: rgb(67, 117, 177);
+	margin: 0px 0px 20px 0px;
+}
+
+.headerLogo{
+	height:100% ;
+}
+.headerLogo > img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
