@@ -9,7 +9,7 @@ const PokeInfo = ({ data }) => {
 				(!data) ? "" : (
 					<div className={s.information} >
 						<img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="" />
-						<h1 className={s.name}>{data.name} </h1>
+						<h1 className={s.name}>{data.name} #{('000' + (data.id)).slice(-3)}</h1>
 						<div className={s.detail}>
 							<div className={s.types}>
 								Type
