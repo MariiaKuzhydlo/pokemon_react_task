@@ -60,7 +60,7 @@ const PokeCard = ({ pokemon, loading, infoPokemon }) => {
 				backgroundColor = "#000";
 				break;
 		}
-		return { backgroundColor, color: "#FFF" };
+		return { backgroundColor };
 	};
 
 	return (
