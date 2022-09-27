@@ -8,7 +8,6 @@ import { useEffect } from "react";
 
 
 const Main = () => {
-	// const [searchResults, setSearchResults] = useState()
 	const [pokeData, setPokeData] = useState([]);
 	const [loading, setLoading] = useState(true);
 	const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon?offset=0&limit=9")
@@ -41,7 +40,6 @@ const Main = () => {
 	useEffect(() => {
 		getPokemonsFun();
 	}, [url])
-
 
 	return (
 		<div>
